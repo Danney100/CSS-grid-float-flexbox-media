@@ -1,0 +1,17 @@
+.box {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    background-color: green;
+    margin-left: 5px;
+  }
+
+  .clearflex::after {
+    margin: 10px 10px;   
+    clear: both;
+    display:table;
+    content: "";
+  }
+  * {
+    box-sizing: border-box;
+  }
